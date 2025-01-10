@@ -46,7 +46,7 @@ function createMealCard(meal, container) {
       <div class="card-body">
         <h5 class="card-title">${meal.strMeal}</h5>
         <p class="card-text"><strong>Meal ID:</strong> ${meal.idMeal}</p>
-        <p class="card-text">${meal.strInstructions.substring(0, 100)}...</p>
+        <p class="card-text">${meal.strInstructions.substring(0, 200)}...</p>
       </div>
     </div>
   `;
